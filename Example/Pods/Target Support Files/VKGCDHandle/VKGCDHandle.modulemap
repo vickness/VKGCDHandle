@@ -1,0 +1,6 @@
+framework module VKGCDHandle {
+  umbrella header "VKGCDHandle-umbrella.h"
+
+  export *
+  module * { export * }
+}
