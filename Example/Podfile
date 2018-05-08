@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VKGCDHandle_Example' do
+  pod 'VKGCDHandle', :path => '../'
+
+  target 'VKGCDHandle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
