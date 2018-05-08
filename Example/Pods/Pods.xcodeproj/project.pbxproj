@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0BDFB232DF252756BFB9A25D2EC73028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2556EBF032B193C4A6DCDBBE516424F4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B4D7A616329BE282132A026702B2C3 /* ReplaceMe.m */; };
 		4A923B3F25373CCF90BAD7F5304FD83C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5235E7BE36FE944A7A03183A6DCB230E /* Pods-VKGCDHandle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5EE16BB7835BCEDC1865F2E087932F /* Pods-VKGCDHandle_Tests-dummy.m */; };
 		581C00A96E3500FBA0CF39CC841122DE /* VKGCDHandle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 554D95BB1BF07DB5F461D6B7CC53CA5E /* VKGCDHandle-dummy.m */; };
@@ -16,6 +15,9 @@
 		7A97B39931308239F5CC204CF8AE709A /* VKGCDHandle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAE66E815E340DD42B382DB34680898 /* VKGCDHandle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89594298208ECC8DF07424852A6B90E2 /* Pods-VKGCDHandle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED3BA08BD3206B7B265BB4004D0A0AF5 /* Pods-VKGCDHandle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95366DE238DB94332BA28D0E711C31C0 /* Pods-VKGCDHandle_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4D7F4997D7A63F84F7043FB3C3AA4B /* Pods-VKGCDHandle_Example-dummy.m */; };
+		AA9066C720A1B6AC001886FB /* VKGCDHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9066C520A1B6AC001886FB /* VKGCDHandle.m */; };
+		AA9066C820A1B6AC001886FB /* VKGCDHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9066C620A1B6AC001886FB /* VKGCDHandle.h */; };
+		AA9066C920A1B707001886FB /* VKGCDHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9066C620A1B6AC001886FB /* VKGCDHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B15DA97C9FD93C9E9426D31C81DC499A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,29 +48,30 @@
 		5FF225B311E12E55C4494AABA6C24247 /* Pods-VKGCDHandle_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VKGCDHandle_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67138C685C08061346852BC19AE452AC /* VKGCDHandle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VKGCDHandle.modulemap; sourceTree = "<group>"; };
-		697A9F7ABA63EB06D1239ACFD019058D /* VKGCDHandle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VKGCDHandle.framework; path = VKGCDHandle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		697A9F7ABA63EB06D1239ACFD019058D /* VKGCDHandle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VKGCDHandle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69AF45428343722D9C86C0E43AFFFA81 /* VKGCDHandle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VKGCDHandle.xcconfig; sourceTree = "<group>"; };
 		6CC40706C591D450C523C73F056FCFC6 /* Pods-VKGCDHandle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VKGCDHandle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7112995CC6329EEFF5F331BBAAF305D8 /* Pods-VKGCDHandle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VKGCDHandle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		76BB5203DE5DB43D79485B1095C516CF /* Pods-VKGCDHandle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VKGCDHandle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7ECC8BEE3B30375C2433C032E30ABFA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7ECC8BEE3B30375C2433C032E30ABFA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8162E9C53FAD40E36948FB85BDDD42B5 /* Pods-VKGCDHandle_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VKGCDHandle_Example-umbrella.h"; sourceTree = "<group>"; };
 		89B14983919230406B856EAFB8A8F17F /* Pods-VKGCDHandle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VKGCDHandle_Example.release.xcconfig"; sourceTree = "<group>"; };
 		89E454FE894654BC0746F7511B9EFA8A /* Pods-VKGCDHandle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VKGCDHandle_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8AAE5FB55D9552FEC7432ABE07C1E6B3 /* Pods-VKGCDHandle_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VKGCDHandle_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8FAEE9587DC70D6985AA442E241A2E37 /* Pods_VKGCDHandle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VKGCDHandle_Example.framework; path = "Pods-VKGCDHandle_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8FAEE9587DC70D6985AA442E241A2E37 /* Pods_VKGCDHandle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKGCDHandle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CF914B43143BD8C0C5B501B1D5B0451 /* Pods-VKGCDHandle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VKGCDHandle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B0B4D7A616329BE282132A026702B2C3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = VKGCDHandle/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		AA9066C520A1B6AC001886FB /* VKGCDHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VKGCDHandle.m; path = VKGCDHandle/Classes/VKGCDHandle.m; sourceTree = "<group>"; };
+		AA9066C620A1B6AC001886FB /* VKGCDHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VKGCDHandle.h; path = VKGCDHandle/Classes/VKGCDHandle.h; sourceTree = "<group>"; };
 		B4AAA6B517284B35792468AB4B88D9EB /* Pods-VKGCDHandle_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VKGCDHandle_Tests-resources.sh"; sourceTree = "<group>"; };
-		B58AA46393D6E23D37A1DF77F121764A /* VKGCDHandle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = VKGCDHandle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B58AA46393D6E23D37A1DF77F121764A /* VKGCDHandle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = VKGCDHandle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BB9F2422C856EF9AE474B9451E3F7D4E /* Pods-VKGCDHandle_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VKGCDHandle_Example.modulemap"; sourceTree = "<group>"; };
 		CA54E5F6CF5CBB2185A5F5CDFF81F21B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA631FA8FD3F53DF891BE311792F51AD /* Pods_VKGCDHandle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VKGCDHandle_Tests.framework; path = "Pods-VKGCDHandle_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA631FA8FD3F53DF891BE311792F51AD /* Pods_VKGCDHandle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VKGCDHandle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45DE102C000F92B5CE2E78426EE00E5 /* Pods-VKGCDHandle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VKGCDHandle_Tests.modulemap"; sourceTree = "<group>"; };
 		EAF3D77D29973756B03F5273CAF0C79D /* Pods-VKGCDHandle_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VKGCDHandle_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ED3BA08BD3206B7B265BB4004D0A0AF5 /* Pods-VKGCDHandle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VKGCDHandle_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F44734F3D27630B04FE533DABD26083C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F44734F3D27630B04FE533DABD26083C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F70ADD721DBB5960945E223D208E3733 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBAE66E815E340DD42B382DB34680898 /* VKGCDHandle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VKGCDHandle-umbrella.h"; sourceTree = "<group>"; };
 		FE4D7F4997D7A63F84F7043FB3C3AA4B /* Pods-VKGCDHandle_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VKGCDHandle_Example-dummy.m"; sourceTree = "<group>"; };
@@ -105,7 +108,8 @@
 		3EAB52597C5611A905B34D5A109C5BC6 /* VKGCDHandle */ = {
 			isa = PBXGroup;
 			children = (
-				B0B4D7A616329BE282132A026702B2C3 /* ReplaceMe.m */,
+				AA9066C620A1B6AC001886FB /* VKGCDHandle.h */,
+				AA9066C520A1B6AC001886FB /* VKGCDHandle.m */,
 				4C9DD47D08339AC6011172445C53927E /* Pod */,
 				DCC0B4E1989AFF5344EAF6FA9FA72F13 /* Support Files */,
 			);
@@ -234,6 +238,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9066C920A1B707001886FB /* VKGCDHandle.h in Headers */,
 				7A97B39931308239F5CC204CF8AE709A /* VKGCDHandle-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +247,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9066C820A1B6AC001886FB /* VKGCDHandle.h in Headers */,
 				7A749EC09A3B320D543BEC044C80285B /* Pods-VKGCDHandle_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95366DE238DB94332BA28D0E711C31C0 /* Pods-VKGCDHandle_Example-dummy.m in Sources */,
+				AA9066C720A1B6AC001886FB /* VKGCDHandle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +366,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2556EBF032B193C4A6DCDBBE516424F4 /* ReplaceMe.m in Sources */,
 				581C00A96E3500FBA0CF39CC841122DE /* VKGCDHandle-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
